@@ -58,13 +58,13 @@ render() {
           <label htmlFor="item">Item Name</label>
           <input type="text" value={this.state.item} onChange={this.handleChange} id="item"/>
 
-          <label htmlFor="item">Brand Name</label>
+          <label htmlFor="brand">Brand Name</label>
           <input type="text" value={this.state.item} onChange={this.handleChange} id="brand"/>
 
-          <label htmlFor="item">Units</label>
+          <label htmlFor="units">Units</label>
           <input type="text" value={this.state.item} onChange={this.handleChange} id="units"/>
 
-          <label htmlFor="item">Quantity</label>
+          <label htmlFor="quantity">Quantity</label>
           <input type="text" value={this.state.item} onChange={this.handleChange} id="quantity"/>
 
           <input type="submit" id="submit"></input>
